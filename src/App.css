@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background: rgb(41, 33, 33);
+width: 40vw;
+margin: 10em auto;
+border-radius: 15px;
+padding: 20px 10px;
+color: black;
+border: 3px solid rgb(36, 110, 194);
 }
 
 .App-logo {
@@ -35,4 +42,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.toggle{
+ 
+  border-radius: 50%;
+  height:30px;
+  width: 30px;
+  text-align: center;
+  align-items: center;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 0px 18px;
+  width: 340px;
+  height: 40px;
+  margin: auto;
+  margin-top: 3px;
+ 
+  border-radius: 10px;
+  align-items: center;
+
+  text-align: center;
 }
